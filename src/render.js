@@ -72,7 +72,7 @@ async function selectSource(source) {
 }
 
 // Register Event Handlers
-function handelDataAvailable(e) {
+function handleDataAvailable(e) {
   console.log("video data available");
   recordedChunks.push(e.data);
 }
